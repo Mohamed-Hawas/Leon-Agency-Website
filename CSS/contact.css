@@ -1,0 +1,43 @@
+.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.contact .quote {
+    color: #2c4755;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    font-size: 40px;
+}
+
+.contact .mail {
+    text-decoration: none;
+    display: block;
+    font-weight: 800;
+
+    color: var(--main-color);
+    padding-left: 40px;
+    font-size: 35px;
+    letter-spacing: -1.5px;
+}
+
+.contact .contact-content p {
+    display: inline-block;
+}
+
+@media(max-width:768px) {
+    .contact .quote {
+        font-size: 25px;
+    }
+
+    .contact .mail {
+        font-size: 20px;
+    }
+
+    .contact .contact-content p,
+    i {
+        font-size: 15px;
+    }
+}

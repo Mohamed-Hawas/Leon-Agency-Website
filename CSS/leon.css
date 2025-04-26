@@ -1,0 +1,65 @@
+:root {
+    --main-color: #10cab7;
+    --text-color: #2c4755;
+    --h3-color: #1f2021;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Start Component */
+.special-heading{
+    padding-bottom: 80px; 
+}
+.special-heading h2 {
+    text-transform: capitalize;
+    margin-top: 0;
+    font-size: 100px;
+    color: #ebeced;
+    text-align: center;
+    letter-spacing: -1.8px;
+
+}
+
+.special-heading p {
+    color: #575757;
+    text-align: center;
+    margin: -120px 0 0 0;
+}
+
+/* End Component */
+

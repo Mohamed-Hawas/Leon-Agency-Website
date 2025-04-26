@@ -1,0 +1,27 @@
+.footer {
+    background-color: #2c4755;
+    height: 60px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+.footer span {
+    color: var(--main-color);
+}
+
+@media(max-width:768px) {
+    .footer {
+        height: 30px;
+    }
+    .footer p {
+        padding: 10px;
+        font-size: 10px;
+    } 
+}
+

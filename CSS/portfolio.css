@@ -1,0 +1,36 @@
+.portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+}
+
+.portfolio .portfolio-content {
+    /* padding-top: 80px;
+    padding-bottom: 60px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+
+.portfolio .card {
+    background-color: white;
+}
+
+.portfolio .card img {
+    max-width: 100%;
+}
+
+.portfolio .card h3 {
+    text-transform: capitalize;
+    padding: 15px;
+    margin: 0;
+    color: var(--h3-color);
+
+}
+
+.portfolio .card p {
+    margin: 0;
+    padding: 0 15px 15px;
+    color: var(--text-color);
+}
